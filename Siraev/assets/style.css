@@ -158,3 +158,34 @@ nav ul li a{
   color: white;
 }
 
+.features{
+  width: 805px;
+  height: 334px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 23px;
+  margin-top: 200px;
+}
+.feature{
+  width: 252px;
+  height: 186px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 31px 38px;
+}
+.feature h2{
+  font-weight: bold;
+  font-size: 16px;
+
+}
+.feature p{
+  text-align: center;
+  color: #737373;
+  font-size: 14px;
+  font-weight: medium;
+}
+
